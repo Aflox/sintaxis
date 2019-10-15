@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Declaraciones</title>
+</head>
+<body>
+    
+    Edad = 50;  <!--Está bien pero generará advertencia strict en JavaScript-->
+    var b, c;   <!--Está bien-->
+    var d, var e;   <!--Está mal, el segundo var sobra al declarar o haría falta un ; donde está la ,-->
+    var default;    <!--Está mal porque default es una palabra reservada del lenguaje-->
+    _mes    <!--Está mal porque no está cerrada con ;-->
+    $_mes;  <!--Está bien pero generará advertencia strict en JavaScript-->
+    01_enero    <!--Está mal porque no está cerrada con ; y además no puede empezar con un dígito-->
+    var primer apellido; var segundo.apellido;  <!--Ambas mal, no puedes introducir espacios ni .-->
+    var despierto = dormido = 0;    <!--Está bien pero se sobrescribe-->
+    var animal = "perro";   <!--Está bien-->
+    var coche = seat;   <!--Estará bien si existe la variable seat, si no harían falta "" para indicar una cadena-->
+
+</body>
+</html>
