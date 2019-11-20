@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 18</title>
+    <script src="js/ejercicio18.js"></script>
+</head>
+<body>
+    <script>
+        var p1 = new Persona('Adri', 24, 'Masculino');
+        console.log(p1.obtDetalles());
+        
+        var e1 = new Estudiante('Diego', 21, 'Masculino');
+        e1.registrar('2º', 'DAW');
+        console.log(e1.nombre, " ", e1.edad, " ", e1.genero, " ", e1.curso, " ", e1.grupo);
+        
+        var prof1 = new Profesor('Paco', 30, 'Masculino');
+        prof1.asignar('Programación', 'Avanzado');
+        console.log(prof1.nombre, " ", prof1.edad, " ", prof1.genero, " ", prof1.asignatura, " ", prof1.nivel);
+    </script>
+</body>
+</html>
