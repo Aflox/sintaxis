@@ -1,19 +1,28 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mates</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/mates.js"></script>
 </head>
 <body>
-    <script type="text/javascript">
-        var nombre_del_usuario = window.prompt("Introduce tu nombre:","");
-        alert("Bienvenido, "+nombre_del_usuario);
-    </script>
-    <table>
-        <tr><td>Tabla de multiplicar<script></script></td></tr>
-        <tr><td>Media aritmética</td></tr>
-        <tr><td>Operaciones</td></tr>
-        <tr><td>Notas</td></tr>
-        <tr><td>Pi</td></tr>
-    </table>
+    <tr>
+        <td><a href="tablasDeMultiplicar.html">Tabla de multiplicar</a></td>
+    </tr>
+    <tr>
+        <td><a href="#" onclick="mediaAritmetica();">Media aritmética</a></td>
+    </tr>
+    <tr>
+        <td><a href="#" onclick="operaciones();">Operaciones</a></td>
+    </tr>
+    <tr>
+        <td><a href="#" onclick="notas();">Notas</a></td>
+    </tr>
+    <tr>
+        <td><a href="#" onclick="pi();">Pi</a></td>
+    </tr>
 </body>
 </html>
