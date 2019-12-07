@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 var hoy = new Date(), diasres = new Date(hoy.getFullYear(), 11, 25);
 var contador = 0, fsemana = 0, finde = false;

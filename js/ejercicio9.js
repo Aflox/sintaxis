@@ -1,5 +1,5 @@
-"use strict"
-//Como funciona el options, etc
+"use strict";
+
 function fecha(d, m, y) {
     var dia = d.options[d.selectedIndex].value;
     var mes = m.options[m.selectedIndex].value;;

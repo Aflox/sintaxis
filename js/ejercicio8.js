@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 function addZero(num) {
     if (num < 10) {

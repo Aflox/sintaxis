@@ -1,17 +1,16 @@
-"use strict"
-//Por qué no imprime por pantalla para poder continuar.
+"use strict";
 
 var hoy = new Date();
 
-function fecha(factual) {
+function fecha(factual){
 
     factual.innerHTML = hoy.toLocaleDateString();
 }
 
-function fechaMod(valor, factual) {
+function fechaMod(valor, factual){
     var num = valor.value;
 
-    hoy.setDate((hoy.getDate() + parseInt(num)));
+    hoy.setDate((hoy.getDate()+parseInt));
 
     factual.innerHTML = hoy.toLocaleDateString();
 }
